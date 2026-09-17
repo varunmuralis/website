@@ -483,10 +483,7 @@
   /* ============ Photo bands ============ */
   .photoband{
     margin:0;
-    padding-block:34px;
-    width:min(1280px, 100vw - 44px);
-    margin-left:50%;
-    transform:translateX(-50%);
+    padding-block:30px;
     display:grid;
     grid-template-columns:1fr;
     gap:16px;
@@ -521,8 +518,7 @@
     margin-bottom:2px;
   }
   @media (max-width:620px){
-    .photoband{width:100%;margin-left:0;transform:none;padding-block:26px;}
-    .photoband .frame{aspect-ratio:4/3;}
+    .photoband{padding-block:24px;}
   }
 
   /* ============ Contact ============ */
