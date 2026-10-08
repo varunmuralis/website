@@ -1,4 +1,4 @@
-# varunmurali.com
+# varunmurali.me
 
 Personal site for Varun Murali. Plain HTML, no build step, no dependencies, no framework.
 
